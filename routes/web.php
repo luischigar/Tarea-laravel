@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/ingresar', 'controladorpersona@ingresar');
+
+Route::get('/mostrar', 'controladorpersona@mostrar');
